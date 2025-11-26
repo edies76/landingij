@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Landing page for IntelliLearn",
   "scripts": {
-    "build": "next build && next start",
+    "build": "next build",
     "dev": "next dev",
-    "start": "next start",
+    "start": "next start -p ${PORT:-3000}",
     "lint": "next lint"
   },
   "dependencies": {
